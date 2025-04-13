@@ -70,6 +70,24 @@
   <footer>
   <p>© 2025 Shreesh • <a href="https://github.com/shreesh-pandey" target="_blank">GitHub</a></p>
 </footer>
+<button id="scrollToTopBtn" title="Go to top">↑</button>
+
+<script>
+  const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+  window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 300) {
+      scrollToTopBtn.style.display = 'block';
+    } else {
+      scrollToTopBtn.style.display = 'none';
+    }
+  });
+
+  scrollToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
 
 </body>
 </html>
