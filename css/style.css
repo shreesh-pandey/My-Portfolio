@@ -66,10 +66,8 @@ footer a:hover {
 }
 h2 {
   margin-bottom: 0.5rem;
-  color: #333333;
- /* color: #ffffff; if background is dark */
- /* nav {
-  background-color: #f8f8f8; lighten the nav background if needed */
+  color: #222;
+ 
 }
 
 
@@ -90,7 +88,8 @@ nav a {
 nav a:hover {
   color: #007bff;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) 
+{
 /* Default: Desktop view */
 nav {
   display: flex;
@@ -106,7 +105,9 @@ nav {
     flex-direction: column;
     gap: 0.5rem;
   }
-
+/* color: #ffffff; if background is dark */
+ /* nav {
+  background-color: #f8f8f8; lighten the nav background if needed */
   nav a {
     font-size: 1rem;
   }
