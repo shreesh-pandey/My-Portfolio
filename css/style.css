@@ -126,3 +126,22 @@ nav {
     font-size: 0.8rem;
   }
 }
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 100;
+  display: none;
+  background-color: #4da3ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#scrollToTopBtn:hover {
+  background-color: #007bff;
+}
