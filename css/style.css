@@ -47,3 +47,40 @@ h2 {
   border-bottom: 2px solid #ddd;
   padding-bottom: 0.5rem;
 }
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+h2 {
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 1rem;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #007bff;
+}
