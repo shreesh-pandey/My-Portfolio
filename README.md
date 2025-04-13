@@ -1,103 +1,108 @@
-# 👋 Hi, I'm Shreesh Pandey
+# 💼 Project: My Portfolio
 
-📞 +91-8750302222 | 📧 shree25g@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/shreesh-pandey)
-
----
-
-## 🧩 Professional Summary
-
-Certified **Project Management Professional (PMP)** with ~10 years of experience in the IT service industry, operations, BPO, and process optimization. Skilled in leading cross-functional teams, implementing automation, and driving process improvements to enhance efficiency and reduce costs.
-
-Recognized for innovation and leadership, with a strong track record in:
-
-- Project & stakeholder management  
-- Risk assessment and mitigation  
-- Automation and cloud services  
-- Delivering impactful results in dynamic environments  
+Welcome to my personal portfolio website project!  
+This site is designed to showcase my professional journey, skills, and side projects, while also serving as a central hub to connect with me online.
 
 ---
 
-## 💼 Experience
+## 📌 Purpose & Goals
 
-### **Senior Analyst | Accenture**  
-*Sep 2017 – Present*
-
-- Led cloud migration projects, cutting infrastructure costs by 30% and improving uptime to 99.9%
-- Automated billing & event entry processes, reducing manual workloads by 25%
-- Streamlined FP&A for Mondelez OTC, enhancing financial reporting and SLA compliance
-- Created BRDs, dashboards, and project documentation for efficient stakeholder communication
-- Collaborated with business analysts and developers to ensure successful execution
-- Designed and implemented risk assessment frameworks for Amazon BRI, boosting team productivity by 20%
-
-**Achievements**  
-- 🏆 Multiple “Star of Business” awards  
-- 📈 Promoted to Analyst (Level 11) in 2019 and Senior Analyst (Level 10) in 2022  
+- ✅ Showcase personal & professional projects
+- ✅ Highlight key skills and certifications
+- ✅ Link to my blog content (Medium & Substack)
+- ✅ Provide easy access to contact details
+- ✅ Practice and improve my HTML/CSS/JavaScript skills
+- ✅ Use GitHub Pages for hosting
 
 ---
 
-### **Executive – Service Support | Progressive Infotech Pvt. Ltd.**  
-*Jul 2014 – May 2016*
+## 🚀 Features
 
-- Ensured SLA compliance in cloud support using ITIL best practices (+10%)
-- Conducted RCA and enhanced service delivery for client satisfaction
-- Optimized workflows, improving scalability and reducing costs by 20%
-- Delivered technical support across critical platforms, reducing downtime by 15%
-- Improved CampusCare system performance through root-cause resolution and VDI support
-
-**Achievements**  
-- 🚀 Improved cloud service performance & scalability (–20% cost)  
-- 🔧 Reduced system downtime by 15%
-
----
-
-## 🛠️ Key Skills
-
-- **Project Management**: Agile, Scrum, Waterfall, Risk Management, Scheduling, Budgeting  
-- **Cloud Platforms**: Azure, AWS, SAP-ECC, Atlassian Cloud Tools  
-- **Automation & Tools**: Automation Anywhere, Jira, Confluence, VBA, SharePoint  
-- **Data Analysis**: Reporting Analytics, Financial Data Integration  
-- **Soft Skills**: Leadership, Stakeholder Management, Problem Solving, Communication, Change Management  
+- Clean, responsive design
+- Navigation with smooth scrolling
+- Scroll-to-top button
+- Sections:
+  - Home
+  - About Me
+  - Projects
+  - Skills
+  - Blog
+  - Contact
+- Hosted on GitHub Pages (coming soon)
 
 ---
 
-## 📜 Certifications
+## 🛠 Tech Stack
 
-- ✅ Project Management Professional (PMP) – PMI  
-- ☁️ AWS Cloud Practitioner  
-- 🔧 ITIL Foundation  
-- 📘 Microsoft Certified: Azure Fundamentals (AZ-900)  
-- 🛠️ Microsoft Certified: Azure Administrator Associate (AZ-104)  
-- 🔐 Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)
-
----
-
-## 🚀 Key Projects
-
-- **Mondelez OTC**: Automated FP&A workflows using SAP-ECC & SharePoint → +25% reporting accuracy  
-- **Amazon BRI**: Risk assessment implementation via SAP-ECC & Targus → –30% compliance issues  
-- **Billing & Event Entry Automation**: Reduced processing time by 25% via Automation Anywhere & VBA  
-- **Cloud Support (MSO)**: Boosted performance & scalability using Agile & ITIL → –20% ops cost  
-- **Carnoustie Infrastructure**: Uptime improved (–15% downtime) via Windows Server, Linux, SharePoint  
-- **CampusCare (Entab)**: Enhanced system reliability (+20%) through remote desktop & SharePoint optimization  
+- HTML5
+- CSS3 (custom styling)
+- JavaScript (vanilla)
+- Git & GitHub
+- GitHub Pages (for deployment)
 
 ---
 
-## 🎓 Education
+## 🗂 Folder Structure
 
-- **MBA**: Marketing & Finance – Uttar Pradesh Technical University (2013–2015)  
-- **B.Tech**: Computer Science Engineering – Uttar Pradesh Technical University (2008–2012)
+/project-root ├── index.html ├── css/ │ └── style.css ├── js/ │ └── script.js └── README.md
 
----
-
-## 🏅 Awards & Recognitions
-
-- ⭐ Star of Business Award (x2) – Accenture  
-- 🌟 Core Value Champion – Accenture  
-- 🧑‍🤝‍🧑 People Steward Award – MDLZ Global People Advocate Program
 
 ---
 
-## 🌐 Languages
+## 📅 Project Progress Log
 
-- Fluent in **English** & **Hindi**
+### Week 1
+
+#### ✅ Day 1
+- Defined project purpose and sections
+- Created initial GitHub repo and Project board
+
+#### ✅ Day 2
+- Set up `index.html`, basic layout structure
+- Linked external CSS and JS
+
+#### ✅ Day 3
+- Implemented navbar with anchor links
+- Created placeholder sections
+
+#### ✅ Day 4
+- Enabled smooth scrolling using CSS
+
+#### ✅ Day 5
+- Linked external stylesheet correctly
+- Fixed directory structure
+
+#### ✅ Day 6
+- Added footer
+- Cleaned up layout styles
+
+#### ✅ Day 7
+- Added scroll-to-top button with JavaScript
+- Fixed horizontal navbar layout
+- Improved color contrast in navbar
+
+---
+
+## 🌐 Live Preview
+
+Coming soon via [GitHub Pages](https://pages.github.com/)
+
+---
+
+## 📬 Contact
+
+- 📧 Email: shree25g@gmail.com  
+- 💼 LinkedIn: [Shreesh Pandey](https://www.linkedin.com/in/shreesh-pandey)  
+- 📝 Blog: [Medium](https://theterran.medium.com/) • [Substack](https://theterran.substack.com/)
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots here as you finish major sections)*
+
+---
+
+## 🔖 License
+
+This project is open for learning and inspiration. Feel free to fork or contribute!
