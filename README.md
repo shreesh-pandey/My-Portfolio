@@ -40,7 +40,7 @@ This is my personal portfolio website – designed to showcase my professional w
 ## Blog Section
 - Links to my blog on Medium and Substack are now accompanied by recognizable icons (Medium and Substack) for better visibility and user experience.
 
-
+---
 ## 📅 Project Progress
 
 See full progress log in [`project-log.md`](project-log.md)
