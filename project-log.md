@@ -89,7 +89,20 @@ The project follows a structured weekly timeline for gradual and focused develop
 - Mobile responsiveness and enhancements planned for Week 2.
 
 ---
+## Project Log: Week 2
 
-📌 Next: Start [Week 2 – Visual Polish & Responsiveness](#)  
+### Week 2: Day 1 - Responsive Layout Tweaks
+- Updated media queries for better responsiveness across various screen sizes.
+- Applied responsive tweaks to navigation, sections, and text for improved mobile display.
+
+### Week 2: Day 2 - Hero Section Polish + Introduction Block
+- Improved the hero section with a welcoming image and personalized introductory message.
+- Added text and styling enhancements to the introduction block for better readability.
+
+### Week 2: Day 3 - Blog Section Polish
+- Added Font Awesome icons for Medium and Substack to make the blog links more recognizable.
+- Updated styling for blog section to improve visual appeal.
+
+---
 💏 *This log will be updated as the project continues.*
 
