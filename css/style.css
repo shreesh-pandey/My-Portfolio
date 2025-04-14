@@ -345,3 +345,13 @@ section {
   color: #0d0d0d;
   transform: translateY(-3px);
 }
+
+.blog-link i {
+  margin-right: 10px; /* Space between icon and text */
+  font-size: 1.2rem; /* Adjust size */
+  color: #00ffd5; /* Same as the link color */
+}
+
+.blog-link:hover i {
+  color: #0d0d0d; /* Change icon color on hover */
+}
