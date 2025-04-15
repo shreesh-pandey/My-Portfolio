@@ -437,3 +437,34 @@ section {
     grid-template-columns: 1fr;
   }
 }
+#blog {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.blog-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.blog-link {
+  font-size: 1.1rem;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.blog-link i {
+  font-size: 1.4rem;
+}
+
+.blog-link:hover {
+  color: #0056b3;
+}
