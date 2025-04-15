@@ -71,6 +71,10 @@ footer a:hover {
 h2 {
   margin-bottom: 0.5rem;
   color: #222;
+ 
+}
+
+
 }
 
 section {
@@ -105,13 +109,14 @@ nav {
     flex-direction: column;
     gap: 0.5rem;
   }
- /* color: #ffffff; if background is dark */
+/* color: #ffffff; if background is dark */
  /* nav {
   background-color: #f8f8f8; lighten the nav background if needed */
   nav a {
     font-size: 1rem;
   }
 }
+
 
   nav a {
     margin: 0.3rem 0;
@@ -235,8 +240,6 @@ section {
   padding: 60px 20px;
   background-color: #111;
   color: #eee;
-  max-width: 1000px;  /* Add this to match other sections */
-  margin: 0 auto; /* Center the content */
 }
 
 .about-content {
@@ -380,42 +383,178 @@ section {
     flex-direction: column;
     text-align: center;
   }
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
 
-  .about-image img {
-    margin-bottom: 1rem;
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.project-card a:hover {
+  color: #0056b3;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr;
   }
 }
+#blog {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.blog-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.blog-link {
+  font-size: 1.1rem;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.blog-link i {
+  font-size: 1.4rem;
+}
+
+.blog-link:hover {
+  color: #0056b3;
+}
+#skills {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  max-width: 800px;
+  margin: 1.5rem auto 0;
+  padding: 0 1rem;
+}
+
+.skill-card {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-3px);
+  background-color: #333;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: #00bcd4;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #00bcd4;
+}
+/* Contact Section */
 .contact-container {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 1rem 0;
-  max-width: 1000px; /* Add this to match other sections */
-  margin: 0 auto; /* Center the content */
 }
 
-.contact-container input,
-.contact-container textarea {
-  width: 100%;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  background-color: #333;
-  border: 1px solid #444;
-  border-radius: 5px;
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.1rem;
   color: #fff;
 }
 
-.contact-container button {
-  padding: 1rem 2rem;
-  background-color: #00ffd5;
-  color: #000;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.contact-item i {
+  font-size: 1.3rem;
+  color: #00bcd4;
+}
+footer {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
 }
 
-.contact-container button:hover {
-  background-color: #00c3ff;
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+  text-decoration: underline;
+  color: #fff;
 }
