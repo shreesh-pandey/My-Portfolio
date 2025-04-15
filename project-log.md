@@ -5,104 +5,84 @@ The project follows a structured weekly timeline for gradual and focused develop
 
 ---
 
-## ✅ Week 1: Foundation & Setup
+## 📘 Project Log
+
+### Week 1: Day 1 – Project Setup & Planning (2025-04-08)
+- Defined purpose: Showcase personal & company projects, demonstrate skills, and aid job search.
+- Chose tech stack: HTML/CSS/JavaScript + GitHub Pages for hosting.
+- Decided layout: Home, About, Projects, Skills, Blog, Contact.
+- ✅ **Commit:** `Initial project planning and setup`
+
+### Week 1: Day 2 – Basic Layout and File Structure (2025-04-09)
+- Created base folders: `/css`, `/js`, `index.html`.
+- Linked stylesheet and script files.
+- ✅ **Commit:** `Set up basic file structure and boilerplate HTML`
+
+### Week 1: Day 3 – Navigation Bar & Anchor Links (2025-04-10)
+- Added navigation bar linking to all sections.
+- Implemented smooth scroll behavior.
+- ✅ **Commit:** `Add nav bar with anchor links and smooth scroll`
+
+### Week 1: Day 4 – Section IDs & Scroll Tweaks (2025-04-11)
+- Assigned section IDs for navigation.
+- Enabled smooth scrolling in CSS.
+- ✅ **Commit:** `Refactor section IDs and enable smooth scrolling`
+
+### Week 1: Day 5 – Footer + Scroll-to-Top Button (2025-04-12)
+- Added site footer with contact and GitHub links.
+- Implemented scroll-to-top button using JavaScript.
+- ✅ **Commit:** `Add footer and scroll-to-top button`
+
+### Week 1: Day 6 – Clean Styling Pass (2025-04-13)
+- Added CSS tweaks: spacing, font family, color fixes.
+- ✅ **Commit:** `Apply layout polish and typography fixes`
+
+### Week 1: Day 7 – Blog Section & Link Styling (2025-04-14)
+- Added blog section with external Medium and Substack links.
+- Styled external links and adjusted visibility.
+- ✅ **Commit:** `Add blog section and improve link styling`
 
 ---
 
-### 🟢 Day 1 – Project Kickoff
+### Week 2: Day 1 – Typography & Font Base Styling (2025-04-15)
+- Replaced base font with modern sans-serif.
+- Enhanced heading styles (size, spacing, color).
+- ✅ **Commit:** `Update base typography and heading styles`
 
-- Defined the purpose and goals of the portfolio:
-  - Showcase personal and professional projects
-  - Highlight skills, certifications, and blog presence
-  - Provide clear contact options
-- Decided on a clean, minimalistic layout
-- Outlined main sections: Home, About, Projects, Skills, Blog, Contact
-- Created GitHub repository and project board with weekly planning
+### Week 2: Day 2 – Responsive Layout Tweaks (2025-04-16)
+- Introduced media queries for mobile responsiveness.
+- Adjusted spacing, padding, and font sizes for smaller screens.
+- ✅ **Commit:** `Add media queries for responsive layout`
 
----
+### Week 2: Day 3 – Hero Section Polish (2025-04-17)
+- Replaced generic Home section with a Hero block.
+- Included professional introduction text.
+- ✅ **Commit:** `Add polished hero section with intro text`
 
-### 🟢 Day 2 – Initial HTML & File Structure
+### Week 2: Day 4 – About Section Enhancements (2025-04-18)
+- Added profile image with circular frame.
+- Rearranged text content for improved presentation.
+- ✅ **Commit:** `Enhance About section with photo and layout`
 
-- Created the basic `index.html` file
-- Set up folders:
-  - `/css` for styles
-  - `/js` for JavaScript
-- Linked `style.css` and `script.js` externally
-- Outlined all planned sections in `index.html` using proper IDs
+### Week 2: Day 5 – Projects Section Grid Layout (2025-04-19)
+- Converted project list to a responsive card layout.
+- Added placeholder/sample images.
+- ✅ **Commit:** `Refactor Projects section to grid layout with placeholders`
 
----
+### Week 2: Day 6 – Blog Section Polish (2025-04-20)
+- Added icons (Font Awesome + SVG) for Medium and Substack.
+- Enhanced blog section layout and visual hierarchy.
+- ✅ **Commit:** `Polish Blog section with icons and styling`
 
-### 🟢 Day 3 – Navigation Menu & Anchors
-
-- Created a navigation bar at the top of the page
-- Used anchor links (`#sectionID`) to navigate to sections
-- Validated scroll behavior via test content
-
----
-
-### 🟢 Day 4 – Smooth Scrolling Enhancement
-
-- Added smooth scroll behavior in `style.css`:
-  ```css
-  html {
-    scroll-behavior: smooth;
-  }
-  ```
-- Verified section-to-section transitions
+### Week 2: Day 7 – Skills Section Polish (2025-04-21)
+- Replaced the basic `<ul>`-based Skills section with a responsive grid layout.
+- Each skill is now displayed as a styled card for a modern, professional appearance.
+- Improved visual hierarchy and alignment with the portfolio’s aesthetic theme.
+- CSS updates made to style the new grid layout and skill cards.
+- ✅ **Commit:** `Enhance Skills Section with Grid Layout and Styling`
 
 ---
 
-### 🟢 Day 5 – Fixing Stylesheet Path
 
-- Ensured external styles were loading correctly
-- Fixed relative path to CSS: `css/style.css`
-- Cleaned up internal spacing and minor syntax issues
-
----
-
-### 🟢 Day 6 – Footer + Layout Styling
-
-- Added footer with name and GitHub link
-- Improved layout consistency:
-  - Balanced spacing across sections
-  - Minor font tweaks
-- Cleaned up margins and section alignment
-
----
-
-### 🟢 Day 7 – Interactivity + UI Fixes
-
-- Added a scroll-to-top button using JavaScript:
-  - Displayed after scrolling 300px
-  - Smooth scroll on click
-- Fixed top navigation bar:
-  - Made it horizontal (from vertical)
-  - Adjusted text color for visibility on dark background
-  - Improved color contrast using white/light text
-
----
-
-## 📝 Notes
-
-- Week 1 focus was on **basic structure and navigation**.
-- All UI updates were tested on desktop browsers.
-- Mobile responsiveness and enhancements planned for Week 2.
-
----
-## Project Log: Week 2
-
-### Week 2: Day 1 - Responsive Layout Tweaks
-- Updated media queries for better responsiveness across various screen sizes.
-- Applied responsive tweaks to navigation, sections, and text for improved mobile display.
-
-### Week 2: Day 2 - Hero Section Polish + Introduction Block
-- Improved the hero section with a welcoming image and personalized introductory message.
-- Added text and styling enhancements to the introduction block for better readability.
-
-### Week 2: Day 3 - Blog Section Polish
-- Added Font Awesome icons for Medium and Substack to make the blog links more recognizable.
-- Updated styling for blog section to improve visual appeal.
-
----
 💏 *This log will be updated as the project continues.*
 
