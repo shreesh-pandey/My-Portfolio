@@ -81,6 +81,18 @@ The project follows a structured weekly timeline for gradual and focused develop
 - CSS updates made to style the new grid layout and skill cards.
 - ✅ **Commit:** `Enhance Skills Section with Grid Layout and Styling`
 
+### Week 3: Day 2 – Contact Section Improvements (2025-04-17)
+- Refined the Contact section for better alignment and readability.
+- Added hover effects to links and buttons to enhance user interaction.
+- Included visual separators for clarity and structure in the layout.
+- ✅ Commit: Enhance Contact Section Layout with Hover Effects
+
+### Week 3: Day 3 – Cross-Browser Testing & Refinements (2025-04-18)
+- Conducted cross-browser testing to ensure compatibility on major browsers (Chrome, Firefox, Safari, Edge).
+- Cleaned up code by removing unnecessary comments and unused CSS classes.
+- Improved accessibility by adding missing alt attributes and reviewing accessibility issues.
+- Refined minor design tweaks for better user experience and mobile responsiveness.
+- ✅ Commit: Final Testing and Refinements - Cross-Browser Compatibility & Accessibility
 ---
 
 
