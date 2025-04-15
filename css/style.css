@@ -17,7 +17,6 @@ body {
   color: #fff; /* White text for contrast */
 }
 
-
 /* Navigation Bar */
 nav {
   background-color: #222;
@@ -71,181 +70,45 @@ footer a:hover {
 h2 {
   margin-bottom: 0.5rem;
   color: #222;
- 
 }
 
-
-}
-
-section {
-  padding: 2rem 0;
-  border-bottom: 1px solid #ddd;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-  margin: 0 1rem;
-  font-weight: 500;
-}
-
-nav a:hover {
-  color: #007bff;
-}
-@media (max-width: 768px) 
-{
-/* Default: Desktop view */
-nav {
+/* Contact Section */
+.contact-container {
   display: flex;
-  justify-content: center;
-  background-color: #fff;
+  flex-direction: column;
+  gap: 1rem;
   padding: 1rem 0;
-  gap: 2rem;
+  align-items: center; /* Center items horizontally */
+  max-width: 1000px;
+  margin: 0 auto; /* Center container */
 }
 
-/* Mobile view only */
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-/* color: #ffffff; if background is dark */
- /* nav {
-  background-color: #f8f8f8; lighten the nav background if needed */
-  nav a {
-    font-size: 1rem;
-  }
-}
-
-
-  nav a {
-    margin: 0.3rem 0;
-    font-size: 1rem;
-  }
-
-  section {
-    padding: 1.5rem 1rem;
-  }
-
-  footer {
-    font-size: 0.8rem;
-  }
-}
-#scrollToTopBtn {
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  z-index: 100;
-  display: none;
-  background-color: #4da3ff;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 50%;
-  font-size: 20px;
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-#scrollToTopBtn:hover {
-  background-color: #007bff;
-}
-h1, h2, h3 {
-  margin-bottom: 0.5em;
-  font-weight: 600;
-}
-
-h1 {
-  font-size: 2.5rem;
-  color: #00ffd5;
-}
-
-h2 {
-  font-size: 2rem;
-  color: #00c3ff;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-section {
-  padding: 60px 20px;
-  border-bottom: 1px solid #333;
-}
-/* Mobile styles */
-@media screen and (max-width: 768px) {
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-  }
-
-  nav ul li {
-    margin: 10px 0;
-  }
-
-  section {
-    padding: 40px 16px;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  p, li {
-    font-size: 0.95rem;
-  }
-}
-.hero {
+.contact-item {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
-  text-align: center;
-  background: linear-gradient(to bottom, #000, #111);
-}
-
-.hero-content {
-  max-width: 600px;
-}
-
-.tagline {
-  font-size: 1.2rem;
-  margin: 20px 0;
-  color: #ccc;
-}
-
-.cta-button {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  background-color: #00ffd5;
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: background 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #00c3ff;
+  gap: 0.75rem;
+  font-size: 1.1rem;
   color: #fff;
 }
+
+.contact-item i {
+  font-size: 1.3rem;
+  color: #00bcd4;
+}
+
+/* About Me Section */
 .about {
   padding: 60px 20px;
   background-color: #111;
   color: #eee;
+  text-align: center; /* Centers text */
 }
 
 .about-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: row; /* Align items in a row on large screens */
   align-items: center;
+  justify-content: center; /* Center the content horizontally */
   max-width: 1000px;
   margin: 0 auto;
   gap: 40px;
@@ -253,6 +116,9 @@ section {
 
 .about-text {
   flex: 1;
+  text-align: left; /* Align text to the left for readability */
+  font-size: 1.1rem; /* Slightly larger text */
+  line-height: 1.6;
 }
 
 .profile-pic {
@@ -263,17 +129,18 @@ section {
   border: 3px solid #00ffd5;
 }
 
-/* Responsive tweak */
+/* Mobile view */
 @media screen and (max-width: 768px) {
   .about-content {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: column; /* Stack content vertically on mobile */
+    text-align: center; /* Center text on mobile */
   }
 
   .profile-pic {
     margin-bottom: 20px;
   }
 }
+
 .projects {
   padding: 60px 20px;
   background-color: #1a1a1a;
@@ -314,6 +181,7 @@ section {
   line-height: 1.4;
   color: #ccc;
 }
+
 .blog {
   padding: 60px 20px;
   background-color: #0d0d0d;
@@ -355,6 +223,7 @@ section {
 .blog-link:hover i {
   color: #0d0d0d; /* Change icon color on hover */
 }
+
 .about-container {
   display: flex;
   flex-direction: row;
@@ -384,6 +253,7 @@ section {
     text-align: center;
   }
 }
+
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -437,6 +307,7 @@ section {
     grid-template-columns: 1fr;
   }
 }
+
 #blog {
   margin-top: 3rem;
   text-align: center;
@@ -468,6 +339,7 @@ section {
 .blog-link:hover {
   color: #0056b3;
 }
+
 #skills {
   padding: 2rem 0;
   text-align: center;
@@ -496,6 +368,7 @@ section {
   transform: translateY(-3px);
   background-color: #333;
 }
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -504,57 +377,23 @@ section {
 }
 
 .project-card {
-  background-color: #1e1e1e;
-  border: 1px solid #333;
-  padding: 1rem;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  border-color: #00bcd4;
+  box-shadow: 0 4px 20px rgba(0, 255, 213, 0.2);
 }
 
 .project-card h3 {
-  margin-top: 0;
-  color: #00bcd4;
-}
-/* Contact Section */
-.contact-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 1rem 0;
+  color: #00ffd5;
+  margin-bottom: 10px;
 }
 
-.contact-item {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 1.1rem;
-  color: #fff;
-}
-
-.contact-item i {
-  font-size: 1.3rem;
-  color: #00bcd4;
-}
-footer {
-  background-color: #111;
-  color: #ccc;
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9rem;
-}
-
-footer a {
-  color: #ccc;
-  text-decoration: none;
-}
-
-footer a:hover,
-footer a:focus {
-  text-decoration: underline;
-  color: #fff;
+.project-card p {
+  font-size: 1rem;
 }
