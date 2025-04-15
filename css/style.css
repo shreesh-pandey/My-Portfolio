@@ -496,3 +496,27 @@ section {
   transform: translateY(-3px);
   background-color: #333;
 }
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: #00bcd4;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #00bcd4;
+}
